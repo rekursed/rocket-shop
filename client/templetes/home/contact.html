@@ -1,0 +1,29 @@
+<template name="contact">
+    <div class="well clearfix">
+        <div class="row">
+            <div class="col-md-3">
+                <label class="control-label" for="firstname">First Name</label>
+                <input class="form-control" type="text" name="firstname" id="firstname" placeholder="Your First Name" />
+
+                <label class="control-label" for="lastname">Last Name</label>
+                <input class="form-control" type="text" name="lastname" id="lastname" placeholder="Your Last Name" />
+
+                <label class="control-label" for="email">Email Address</label>
+                <input class="form-control" type="text" name="email" id="email" placeholder="Your email address" />
+
+            </div>
+
+            <div class="col-md-9">
+                <label class="control-label">Message</label>
+                <textarea class="input-xlarge form-control" id="message" name="message" rows="10"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <br/>
+                <button class="btn btn-primary pull-right" type="submit">Send</button>
+            </div>
+        </div>
+    </div>
+</template>
