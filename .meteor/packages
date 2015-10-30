@@ -21,3 +21,8 @@ insecure                # Allow all DB writes from clients (for prototyping)
 twbs:bootstrap
 iron:router
 pcel:loading
+ian:accounts-ui-bootstrap-3
+accounts-password
+accounts-google
+accounts-facebook
+alanning:roles
