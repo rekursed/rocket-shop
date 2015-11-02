@@ -16,6 +16,18 @@
                     <li class="active"><a href="{{pathFor 'home'}}">Home</a></li>
                     <li><a href="{{pathFor 'aboutus'}}">About</a></li>
                     <li><a href="{{pathFor 'contact'}}">Contact</a></li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                           aria-expanded="false">
+                            Vendors <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            {{#each vendors}}
+                                <li><a href="{{pathFor "vendorShow"}}">{{name}}</a></li>
+                            {{/each}}
+
+                        </ul>
+                    </li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

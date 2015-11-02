@@ -5,9 +5,9 @@
             </div>
             <div class="col-md-5">
                 <h1>{{name}}</h1>
-               <!-- {{#with vendor}}
-                    <p><a href="{{pathFor 'vendorsShow'}}">{{name}}</a></p>
-                {{/with}}-->
+                {{#with vendor}}
+                    <p><a href="{{pathFor 'vendorShow'}}">{{name}}</a></p>
+                {{/with}}
                 <p class="lead"><i>{{summary}}</i></p>
                 <p class="lead">{{{ markdown description}}}</p>
 
