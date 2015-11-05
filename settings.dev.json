@@ -1,0 +1,9 @@
+{
+  "stripeSecretKey": "sk_test_P1a4AaXGqB96xk17HsKRLtZd",
+  "public": {
+    "stripePublicKey": "pk_test_u4htggILA3sQidTO0bfLQU3n"
+  },
+  "salesDB": {
+    "connectionString": "postgresql://postgres:rh245@localhost/rocketshop"
+  }
+}

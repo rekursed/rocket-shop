@@ -6,6 +6,7 @@ Template.productShow.events({
         ev.preventDefault();
 
         addToCart(this.sku, function (err, res) {
+            sAlert.success(this.sku + " added to cart");
             Router.go("cartShow");
         });
     }
