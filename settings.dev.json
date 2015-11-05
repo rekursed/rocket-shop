@@ -4,6 +4,6 @@
     "stripePublicKey": "pk_test_u4htggILA3sQidTO0bfLQU3n"
   },
   "salesDB": {
-    "connectionString": "postgresql://postgres:rh245@localhost/rocketshop"
+    "connectionString": "postgresql://rakib:hu8jmn3@localhost/rocketshop"
   }
 }
